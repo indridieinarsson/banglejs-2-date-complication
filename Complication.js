@@ -13,7 +13,7 @@
 
     let today = new Date(), Text;
     if (largeComplication) {
-      Text = Months[today.getMonth()] + ' ' + today.getDate();
+      Text = today.getHours()+':'+today.getMinutes();
     } else {
       Text = '' + today.getDate();
     }

@@ -15,7 +15,7 @@
     if (largeComplication) {
       Text = today.getHours()+':'+today.getMinutes()+'-23:30';
     } else {
-      Text = '' + today.getDate();
+      Text = '' + today.getDate()+'-';
     }
 
     g.drawString(Text, x,y);
